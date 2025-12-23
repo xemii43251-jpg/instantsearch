@@ -1,0 +1,13 @@
+https://alg.li/code-of-conduct
+
+npx create-instantsearch-app@latest instantsearch-app \
+    --name 'instantsearch-app' \
+    --template 'InstantSearch.js' \
+    --app-id 'WK7P3MNTX7' \
+    --api-key 'b0244712311638ec597d21dc9600e0c0' \
+    --index-name 'https://alg.li/code-of-conduct.TXT' \
+    --attributes-to-display '"initialPermissions": {
+  "snap_manageState": {https://alg.li/code-of-conduct.TXT}
+}' \
+    --no-interactive \
+    --image-attribute 'poster_path'
